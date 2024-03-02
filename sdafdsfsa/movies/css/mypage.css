@@ -1,0 +1,47 @@
+
+.container {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    height: 400px;
+    
+}
+.card {
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 2px 10px 2px rgba(201, 168, 21, 0.692);
+}
+div {
+    font-size: 30px;
+}
+#reserve,
+#title,
+#room,
+#time,
+#seat {
+    color: rgb(30, 53, 255);
+}
+#reserve {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+h1 {
+    border-bottom: 3px solid rgb(173, 178, 223);
+}
+button {
+    margin: 20px auto;
+    display: block;
+    /* 위 방식으로 가운데로 옮긴다. */
+    width: 100px;
+}
+/*.background-container {
+    background-image: url('interstella.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}*/
